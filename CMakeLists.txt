@@ -1,7 +1,3 @@
-# cmake -S . -B build
-# cmake --build build
-# setarch `uname -m` -R ./build/solver_unit_tests_asan
-
 cmake_minimum_required(VERSION 3.10)
 project(hw1 LANGUAGES C CXX)
 option(BUILD_CODEGRADE_TESTS "Build test suites into separate executables" OFF)
